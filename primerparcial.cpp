@@ -75,16 +75,7 @@ void registrarPunto(PuntoTrayectoria &punto)
     cin >> punto.identificador;
 
     cout << "Ingrese el nombre o descripcion: " << endl;
-    cin >> punto.nombre;
-
-    cout << "Ingrese la coordenada X: " << endl;
-    cin >> punto.coordenadas[0];
-
-    cout << "Ingrese la coordenada Y: " << endl;
-    cin >> punto.coordenadas[1];
-
-    cout << "Ingrese la coordenada Z: " << endl;
-    cin >> punto.coordenadas[2];
+  
 }
 
 float calcularDistancia(PuntoTrayectoria *punto)
