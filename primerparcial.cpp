@@ -259,7 +259,7 @@ void generarInforme(
 
     float sumaDistancias = 0;
 
-    cout << "\n------ INFORME DE TRAYECTORIA ------"
+    cout << "\nInforme de trayectoria"
          << endl;
 
     cout << "ID\tNombre\tX\tY\tZ\tDistancia\tClasificacion"
